@@ -1,0 +1,10 @@
+---
+dist: xenial
+language: ruby
+rvm:
+- 2.5.5
+sudo: false
+cache: bundler
+addons:
+  postgresql: '10'
+install: bin/setup
